@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <script src="https://kit.fontawesome.com/2d3ccaa5e7.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="card">
+        <h1>Weather Forecast</h1>
+        <br>
+        <div class="display-flex searchBar">
+            <input type="text" placeholder="Enter the name of the place" class="search-city" id="searchCity">
+            <button class="search-icon" id="searchIcon"><i class="fa-solid fa-magnifying-glass "></i></button>
+        </div>
+        <div class="error" id="errorMsg">
+            <p>Invalid city name</p>
+        </div>
+        <div class="hidden">
+            <div class="temp">
+                <img src="/img/clouds.png" id="weatherImage">
+                <p id="degrees">22°C</p>
+                <p id="cityName">Chandigarh</p>
+            </div>
+            <br>
+            <div class="details">
+                <div class="humidity display-flex">
+                    <img src="/img/humidity.png">
+                    <div class="ml-5">
+                        <p>Humidity</p>
+                        <p id="humidityValue">50%</p>
+                    </div>
+                </div>
+                <div class="windSpeed display-flex">
+                    <img src="/img/Copy of wind.png">
+                    <div class="ml-5">
+                        <p>Wind Speed</p>
+                        <p id="windSpeedValue">25km/hr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>

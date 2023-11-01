@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+
+.card{
+    background-color: rgb(207, 195, 237);
+    padding: 50px;
+    margin: auto;
+    max-width: fit-content;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.searchBar{
+    align-items: center;
+    justify-content: space-between;
+    max-width: 235px;
+    max-height: 100px;
+    margin: auto;
+}
+.search-icon{
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+.search-city{
+    border-radius: 20px;
+    padding: 10px;
+    width:190px;
+    background-color: white;
+    border: none;
+}
+.details{
+    display:flex;
+    justify-content: space-between;
+}
+
+.details img{
+    width:40px;
+}
+
+.temp{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.temp img{
+    width:200px;
+}
+
+.error{
+    color:white;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    display:none;
+}
